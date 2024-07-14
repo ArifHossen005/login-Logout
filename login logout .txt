@@ -1,0 +1,19 @@
+app
+providers
+-FortifyServiceProvider 
+                           -viewPrefix er 
+-JetsrimeServiceProvider 
+      boot method  er vitore 
+		$this->configurePremissions();
+                                  Fortify::loginview();                                                                                                                                                                                                           //laravel/fortify
+   
+ <form action="{{ route('logout') }}" method="post">
+        @csrf
+        <button type="submit" class="btn btn-danger">Logout</button>
+ </form>
+
+
+ <ul>
+          <li><a href="{{ route('login') }}" style="text-decoration: none;color: black">Login</a></li>
+          <li><a href="{{ route('register') }}" style="text-decoration: none;color: black">Register</a></li>
+</ul>
